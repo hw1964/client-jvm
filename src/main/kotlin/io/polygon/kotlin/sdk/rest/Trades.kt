@@ -67,6 +67,7 @@ data class Trade(
     val exchange: Int? = null,
     @SerialName("participant_timestamp") val participantTimestamp: Long? = null,
     val price: Double? = null,
+    @SerialName("sequence_number") val sequenceNumber: Long? = null,
     @SerialName("sip_timestamp") val sipTimestamp: Long? = null,
     val size: Double? = null,
 )
