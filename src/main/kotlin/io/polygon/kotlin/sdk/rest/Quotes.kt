@@ -66,6 +66,7 @@ data class Quote(
     @SerialName("bid_exchange") val bidExchange: Int? = null,
     @SerialName("bid_price") val bidPrice: Double? = null,
     @SerialName("bid_size") val bidSize: Double? = null,
+    @SerialName("conditions") val conditions: List<Int>? = null,
     @SerialName("participant_timestamp") val participantTimestamp: Long? = null,
     @SerialName("sequence_number") val sequenceNumber: Long? = null, // Could be Int, since reset every day
     @SerialName("sip_timestamp") val sipTimestamp: Long? = null,
